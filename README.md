@@ -5,7 +5,7 @@ You can star this repository to keep track of the project if it's helpful for yo
 ```
 
 # Introduction in Chinese
-
+[click](https://mp.weixin.qq.com/s/uWSgeD5FyzXV3LsMNus01Q)
 
 # Usage
 #### Step1
@@ -30,7 +30,7 @@ You can run "python main.py -h" to get more helps.
 	python main.py -o wechatRobot
 --autoReply, execute the following command:
 	python main.py -o autoReply -k keyword1*keyword2 -c content1*content2
-explain:
+	explain:
 	-k and -c are not necessary optional, use "*" to separate if keywords/contents is more than one.
 ```
 
