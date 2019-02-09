@@ -5,7 +5,7 @@ You can star this repository to keep track of the project if it's helpful for yo
 ```
 
 # Introduction in Chinese
-[click](https://mp.weixin.qq.com/s/uWSgeD5FyzXV3LsMNus01Q)
+https://mp.weixin.qq.com/s/uWSgeD5FyzXV3LsMNus01Q
 
 # Usage
 #### Step1
