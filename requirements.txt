@@ -1,0 +1,8 @@
+itchat
+wxpy
+argparse
+echarts-countries-pypkg
+echarts-china-provinces-pypkg
+echarts-china-cities-pypkg
+pyecharts
+echarts-themes-pypkg
