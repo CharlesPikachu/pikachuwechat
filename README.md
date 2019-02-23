@@ -34,6 +34,17 @@ You can run "python main.py -h" to get more helps.
 	-k and -c are not necessary optional, use "*" to separate if keywords/contents is more than one.
 ```
 
+# Effect
+#### antiWithdrawal
+![img](./effect/1.png)
+#### analysisFriends
+![img](./effect/2.png)
+![img](./effect/3.png)
+#### wechatRobot
+![img](./effect/4.png)
+#### autoReply
+![img](./effect/5.png)
+
 # Platform[Tested]
 - Windows  
 - Python3.6  
