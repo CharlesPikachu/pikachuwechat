@@ -1,2 +1,2 @@
 '''initialize'''
-from .core import AntiWithdrawal, AnalysisFriends
+from .core import AutoReply, AntiWithdrawal, AnalysisFriends

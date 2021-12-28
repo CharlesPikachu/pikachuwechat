@@ -24,9 +24,9 @@ You can star this repository to keep track of the project if it's helpful for yo
 # Support List
 | Function                                   | Introduction                                               | Code                                                         |  in Chinese       |
 | :----:                                     | :----:                                                     | :----:                                                       |  :----:           |
-| AntiWithdrawal                             | []()                                                       | [click](./pikachuwechat/modules/core/antiwithdrawal.py)      |  微信消息防撤回   |
-| AnalysisFriends                            | []()                                                       | [click](./pikachuwechat/modules/core/analysisfriends.py)     |  微信好友分析     |
-|                                            | []()                                                       | [click]()                                                    |                   |
+| AntiWithdrawal                             | [click]()                                                  | [click](./pikachuwechat/modules/core/antiwithdrawal.py)      |  微信消息防撤回   |
+| AnalysisFriends                            | [click]()                                                  | [click](./pikachuwechat/modules/core/analysisfriends.py)     |  微信好友分析     |
+| AutoReply                                  | [click]()                                                  | [click](./pikachuwechat/modules/core/autoreply.py)           |  微信自动回复     |
 
 
 # Install
@@ -48,12 +48,17 @@ run "pip install git+https://github.com/CharlesPikachu/pikachuwechat.git@master"
 
 # Quick Start
 ```python
+import random
+from pikachuwechat import pikachuwechat
 
+wechat_helper = pikachuwechat.pikachuwechat()
+all_supports = wechat_helper.getallsupported()
+wechat_helper.execute(random.choice(list(all_supports.values())))
 ```
 
 
 # Screenshot
-![img](./docs/screenshot.jpg)
+![img](./docs/screenshot.png)
 
 
 # Projects in Charles_pikachu

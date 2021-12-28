@@ -15,22 +15,25 @@ from pyecharts import options as opts
 
 '''微信好友分析'''
 class AnalysisFriends():
-    func_name = 'AnalysisFriends'
+    func_name = '微信好友分析'
     logger_handle = Logger(func_name+'.log')
     def __init__(self, **kwargs):
         self.options = kwargs
         self.savedir = kwargs.get('savedir', 'results')
         checkDir(self.savedir)
-    '''用于调用的函数'''
+    '''外部调用运行'''
     def run(self):
         # 登录
         try: itchat.auto_login(hotReload=True)
         except: itchat.auto_login(hotReload=True, enableCmdQR=True)
         # 获得所有好友信息
+        AnalysisFriends.info('run getFriendsInfo...')
         friends_info = self.getFriendsInfo()
         # 分析好友地域分布
+        AnalysisFriends.info('run analysisArea...')
         self.analysisArea(friends_info=friends_info)
         # 分析好友性别分布
+        AnalysisFriends.info('run analysisSex...')
         self.analysisSex(friends_info=friends_info)
     '''分析好友地域分布'''
     def analysisArea(self, title='分析好友地域分布', friends_info=None):
