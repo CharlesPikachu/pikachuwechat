@@ -1,60 +1,71 @@
-# WechatHelper
+<div align="center">
+  <img src="./docs/logo.png" width="600"/>
+</div>
+<br />
+
+[![docs](https://img.shields.io/badge/docs-latest-blue)](https://pikachuwechat.readthedocs.io/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pikachuwechat)](https://pypi.org/project/pikachuwechat/)
+[![PyPI](https://img.shields.io/pypi/v/pikachuwechat)](https://pypi.org/project/pikachuwechat)
+[![license](https://img.shields.io/github/license/CharlesPikachu/pikachuwechat.svg)](https://github.com/CharlesPikachu/pikachuwechat/blob/master/LICENSE)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pikachuwechat?style=flat-square)](https://pypi.org/project/pikachuwechat/)
+[![issue resolution](https://isitmaintained.com/badge/resolution/CharlesPikachu/pikachuwechat.svg)](https://github.com/CharlesPikachu/pikachuwechat/issues)
+[![open issues](https://isitmaintained.com/badge/open/CharlesPikachu/pikachuwechat.svg)](https://github.com/CharlesPikachu/pikachuwechat/issues)
+
+Documents: https://pikachuwechat.readthedocs.io/
+
+
+# PikachuWeChat
 ```sh
-WechatHelper written in python.  
+PikachuWeChat: Play WeChat with itchat-uos.
 You can star this repository to keep track of the project if it's helpful for you, thank you for your support.
 ```
 
-# Introduction in Chinese
-https://mp.weixin.qq.com/s/uWSgeD5FyzXV3LsMNus01Q
 
-# Usage
-#### Step1
+# Support List
+| Function                                   | Introduction                                               | Code                                           |  in Chinese       |
+| :----:                                     | :----:                                                     | :----:                                         |  :----:           |
+| AntiWithdrawal                             | []()                                                       | [click]()                                      |  微信消息防撤回   |
+|                                            | []()                                                       | [click]()                                      |                   |
+|                                            | []()                                                       | [click]()                                      |                   |
+|                                            | []()                                                       | [click]()                                      |                   |
+
+
+# Install
+
+#### Pip install
 ```sh
-Download this repository:
-Clone or download.
-```
-#### Step2
-```sh
-Install some dependencies:  
-"pip install -r requirements.txt" or  
-"py -3 -m pip install -r requirements.txt"  
-```
-#### Step3
-```sh
-You can run "python main.py -h" to get more helps.
---antiWithdrawal, execute the following command:
-	python main.py -o antiWithdrawal
---analysisFriends, execute the following command:
-	python main.py -o analysisFriends
---wechatRobot, execute the following command:
-	python main.py -o wechatRobot
---autoReply, execute the following command:
-	python main.py -o autoReply -k keyword1*keyword2 -c content1*content2
-	explain:
-	-k and -c are not necessary optional, use "*" to separate if keywords/contents is more than one.
+run "pip install pikachuwechat"
 ```
 
-# Effect
-#### antiWithdrawal
-![img](./effect/1.png)
-#### analysisFriends
-![img](./effect/2.png)
-![img](./effect/3.png)
-#### wechatRobot
-![img](./effect/4.png)
-#### autoReply
-![img](./effect/5.png)
+#### Source code install
+```sh
+(1) Offline
+Step1: git clone https://github.com/CharlesPikachu/pikachuwechat.git
+Step2: cd pikachuwechat -> run "python setup.py install"
+(2) Online
+run "pip install git+https://github.com/CharlesPikachu/pikachuwechat.git@master"
+```
 
-# Platform[Tested]
-- Windows  
-- Python3.6  
 
-# Record
-#### 2019-02-09
-- Version: V0.1.0  
-- Detail: support antiWithdrawal, analysisFriends, wechatRobot, autoReply
+# Quick Start
+```python
+
+```
+
+
+# Screenshot
+![img](./docs/screenshot.jpg)
+
+
+# Projects in Charles_pikachu
+- [Games](https://github.com/CharlesPikachu/Games): Create interesting games by pure python.
+- [DecryptLogin](https://github.com/CharlesPikachu/DecryptLogin): APIs for loginning some websites by using requests.
+- [Musicdl](https://github.com/CharlesPikachu/musicdl): A lightweight music downloader written by pure python.
+- [Videodl](https://github.com/CharlesPikachu/videodl): A lightweight video downloader written by pure python.
+- [Pytools](https://github.com/CharlesPikachu/pytools): Some useful tools written by pure python.
+
 
 # More
 #### WeChat Official Accounts
 *Charles_pikachu*  
-![img](pikachu.jpg)
+![img](./docs/pikachu.jpg)
