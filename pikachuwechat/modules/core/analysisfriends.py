@@ -27,13 +27,13 @@ class AnalysisFriends():
         try: itchat.auto_login(hotReload=True)
         except: itchat.auto_login(hotReload=True, enableCmdQR=True)
         # 获得所有好友信息
-        AnalysisFriends.info('run getFriendsInfo...')
+        AnalysisFriends.logger_handle.info('run getFriendsInfo...')
         friends_info = self.getFriendsInfo()
         # 分析好友地域分布
-        AnalysisFriends.info('run analysisArea...')
+        AnalysisFriends.logger_handle.info('run analysisArea...')
         self.analysisArea(friends_info=friends_info)
         # 分析好友性别分布
-        AnalysisFriends.info('run analysisSex...')
+        AnalysisFriends.logger_handle.info('run analysisSex...')
         self.analysisSex(friends_info=friends_info)
     '''分析好友地域分布'''
     def analysisArea(self, title='分析好友地域分布', friends_info=None):
