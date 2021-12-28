@@ -11,7 +11,7 @@
 [![issue resolution](https://isitmaintained.com/badge/resolution/CharlesPikachu/pikachuwechat.svg)](https://github.com/CharlesPikachu/pikachuwechat/issues)
 [![open issues](https://isitmaintained.com/badge/open/CharlesPikachu/pikachuwechat.svg)](https://github.com/CharlesPikachu/pikachuwechat/issues)
 
-Documents: https://pikachuwechat.readthedocs.io/
+Documents: https://pikachuwechat.readthedocs.io/zh/latest/
 
 
 # PikachuWeChat
