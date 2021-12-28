@@ -1,1 +1,2 @@
 itchat-uos
+pyecharts

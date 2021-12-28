@@ -22,12 +22,11 @@ You can star this repository to keep track of the project if it's helpful for yo
 
 
 # Support List
-| Function                                   | Introduction                                               | Code                                           |  in Chinese       |
-| :----:                                     | :----:                                                     | :----:                                         |  :----:           |
-| AntiWithdrawal                             | []()                                                       | [click]()                                      |  微信消息防撤回   |
-|                                            | []()                                                       | [click]()                                      |                   |
-|                                            | []()                                                       | [click]()                                      |                   |
-|                                            | []()                                                       | [click]()                                      |                   |
+| Function                                   | Introduction                                               | Code                                                         |  in Chinese       |
+| :----:                                     | :----:                                                     | :----:                                                       |  :----:           |
+| AntiWithdrawal                             | []()                                                       | [click](./pikachuwechat/modules/core/antiwithdrawal.py)      |  微信消息防撤回   |
+| AnalysisFriends                            | []()                                                       | [click](./pikachuwechat/modules/core/analysisfriends.py)     |  微信好友分析     |
+|                                            | []()                                                       | [click]()                                                    |                   |
 
 
 # Install

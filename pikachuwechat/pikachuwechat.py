@@ -22,8 +22,8 @@ Author: Charles
 操作帮助:
     输入r: 重新初始化程序(即返回主菜单)
     输入q: 退出程序
-视频保存路径:
-    当前路径下的%s文件夹内
+文件默认保存路径:
+    当前文件夹
 ************************************************************'''
 
 
@@ -43,7 +43,8 @@ class pikachuwechat():
     '''初始化所有功能'''
     def initializeallfuncs(self):
         supported_funcs = {
-            'AntiWithdrawal': AntiWithdrawal
+            'AntiWithdrawal': AntiWithdrawal,
+            'AnalysisFriends': AnalysisFriends,
         }
         return supported_funcs
     '''处理用户输入'''
@@ -62,4 +63,4 @@ class pikachuwechat():
 '''run'''
 if __name__ == '__main__':
     wechat_helper = pikachuwechat()
-    wechat_helper.execute('AntiWithdrawal')
+    wechat_helper.execute('AnalysisFriends')
