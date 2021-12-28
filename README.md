@@ -24,9 +24,9 @@ You can star this repository to keep track of the project if it's helpful for yo
 # Support List
 | Function                                   | Introduction                                               | Code                                                         |  in Chinese       |
 | :----:                                     | :----:                                                     | :----:                                                       |  :----:           |
-| AntiWithdrawal                             | [click]()                                                  | [click](./pikachuwechat/modules/core/antiwithdrawal.py)      |  微信消息防撤回   |
-| AnalysisFriends                            | [click]()                                                  | [click](./pikachuwechat/modules/core/analysisfriends.py)     |  微信好友分析     |
-| AutoReply                                  | [click]()                                                  | [click](./pikachuwechat/modules/core/autoreply.py)           |  微信自动回复     |
+| AntiWithdrawal                             | [click](https://mp.weixin.qq.com/s/R6mib62KAIIP5k6S68xqHA) | [click](./pikachuwechat/modules/core/antiwithdrawal.py)      |  微信消息防撤回   |
+| AnalysisFriends                            | [click](https://mp.weixin.qq.com/s/R6mib62KAIIP5k6S68xqHA) | [click](./pikachuwechat/modules/core/analysisfriends.py)     |  微信好友分析     |
+| AutoReply                                  | [click](https://mp.weixin.qq.com/s/R6mib62KAIIP5k6S68xqHA) | [click](./pikachuwechat/modules/core/autoreply.py)           |  微信自动回复     |
 
 
 # Install
