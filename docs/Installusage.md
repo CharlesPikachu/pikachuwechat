@@ -22,11 +22,11 @@ pip install git+https://github.com/CharlesPikachu/pikachuwechat.git@master
 ```
 
 #### 离线安装
-利用如下命令下载videodl源代码到本地:
+利用如下命令下载pikachuwechat源代码到本地:
 ```sh
 git clone https://github.com/CharlesPikachu/pikachuwechat.git
 ```
-接着, 切到musicdl目录下:
+接着, 切到pikachuwechat目录下:
 ```sh
 cd pikachuwechat
 ```
