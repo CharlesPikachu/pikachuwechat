@@ -39,7 +39,6 @@ python setup.py install
 ## 快速开始
 安装完成后，简单写一段脚本：
 ```python
-import random
 from pikachuwechat import pikachuwechat
 
 wechat_helper = pikachuwechat.pikachuwechat()
