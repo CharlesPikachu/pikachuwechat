@@ -44,7 +44,7 @@ class AntiWithdrawal():
                             msg_from = friend['NickName']
                         break
                 groups = itchat.get_chatrooms(update=True)
-                group_name = ''
+                group_name, group_menber_count = '', 0
                 for group in groups:
                     if msg['FromUserName'] == group['UserName']:
                         group_name = group['NickName']
