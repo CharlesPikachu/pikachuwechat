@@ -8,6 +8,7 @@
 [![PyPI](https://img.shields.io/pypi/v/pikachuwechat)](https://pypi.org/project/pikachuwechat)
 [![license](https://img.shields.io/github/license/CharlesPikachu/pikachuwechat.svg)](https://github.com/CharlesPikachu/pikachuwechat/blob/master/LICENSE)
 [![PyPI - Downloads](https://pepy.tech/badge/pikachuwechat)](https://pypi.org/project/pikachuwechat/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/pikachuwechat?style=flat-square)](https://pypi.org/project/pikachuwechat/)
 [![issue resolution](https://isitmaintained.com/badge/resolution/CharlesPikachu/pikachuwechat.svg)](https://github.com/CharlesPikachu/pikachuwechat/issues)
 [![open issues](https://isitmaintained.com/badge/open/CharlesPikachu/pikachuwechat.svg)](https://github.com/CharlesPikachu/pikachuwechat/issues)
 
@@ -72,6 +73,7 @@ wechat_helper.execute(random.choice(list(all_supports.values())))
 - [ImageCompressor](https://github.com/CharlesPikachu/imagecompressor): Image compressors written by pure python.
 - [FreeProxy](https://github.com/CharlesPikachu/freeproxy): Collecting free proxies from internet.
 - [Paperdl](https://github.com/CharlesPikachu/paperdl): Search and download paper from specific websites.
+- [Sciogovterminal](https://github.com/CharlesPikachu/sciogovterminal): Browse "The State Council Information Office of the People's Republic of China" in the terminal.
 
 
 # More
