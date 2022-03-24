@@ -14,4 +14,5 @@ PikachuWeChat中文文档
 	Noninstallusage.md
 	Installusage.md
 	Changelog.md
+	Recommend.md
 	Aboutme.md
