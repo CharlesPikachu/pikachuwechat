@@ -16,17 +16,10 @@ else:
 warnings.filterwarnings('ignore')
 
 
-'''basic info'''
-BASICINFO = '''************************************************************
-Function: 微信小助手 V%s
-Author: Charles
-微信公众号: Charles的皮卡丘
-************************************************************''' % (__version__)
-
-
 '''微信小助手'''
 class pikachuwechat():
     def __init__(self, **kwargs):
+        print(self)
         for key, value in kwargs.items(): setattr(self, key, value)
         self.supported_funcs = self.initializeallfuncs()
     '''开发者调用对应的功能'''
@@ -50,7 +43,7 @@ class pikachuwechat():
         return all_supports
     '''repr'''
     def __repr__(self):
-        return BASICINFO
+        return 'Welcome to use PikachuWeChat!\nYou can visit https://github.com/CharlesPikachu/pikachuwechat for more details.'
 
 
 '''run'''
