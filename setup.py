@@ -35,7 +35,7 @@ setup(
     author_email=pikachuwechat.__email__,
     license=pikachuwechat.__license__,
     include_package_data=True,
-    install_requires=list(open('requirements.txt', 'r').readlines()),
+    install_requires=[lab.strip('\n') for lab in list(open('requirements.txt', 'r').readlines())],
     zip_safe=True,
     packages=find_packages()
 )
